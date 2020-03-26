@@ -308,25 +308,13 @@ public class Mouselook : MonoBehaviour
         if (Physics.Raycast(transform.position, transform.forward, out hit, 100))
         { 
             
-            if (hit.transform.tag == "DoorLevel1")
-            {
-                if (Input.GetButton("e"))
-                {
-                    SceneManager.LoadScene(sceneBuildIndex: 3);
-                }
-            }
-                if (hit.transform.tag == "DoorLevel2")
+            
+                if (hit.transform.tag == "DoorLevel4")
                 {
                     if (Input.GetButton("e"))
                     {
-                        SceneManager.LoadScene(sceneBuildIndex: 4);
-                    }
-                }
-                if (hit.transform.tag == "DoorLevel3")
-                {
-                    if (Input.GetButton("e"))
-                    {
-                        SceneManager.LoadScene(sceneBuildIndex: 5);
+                    Cursor.lockState = CursorLockMode.None;
+                    SceneManager.LoadScene(sceneBuildIndex: 6);
                     }
                 }
                 if (bossHP <= 0)

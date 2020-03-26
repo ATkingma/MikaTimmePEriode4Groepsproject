@@ -156,6 +156,7 @@ public class MousLookNormalMaps : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             MagazijnMin();
+            
             if (GetComponent<WeaponSwitch>().currentWeaponIndex == 0)
             {
                 if (magHandGun >= 1)
@@ -163,7 +164,6 @@ public class MousLookNormalMaps : MonoBehaviour
                 DoShoot();
                 }
             }
-            MagazijnMin();
             if (Physics.Raycast(transform.position, transform.forward, out hit, 100))
             {
                 if (hit.transform.tag == "Boss")
@@ -205,7 +205,7 @@ public class MousLookNormalMaps : MonoBehaviour
                     {
                         if (magHandGun >= 1)
                         {
-                            schooting.SetInteger("condition", 1);
+
                             hit.transform.GetComponent<Health>().DoDamage(5);
                             print("heavyhit1");
                         }
@@ -296,6 +296,7 @@ public class MousLookNormalMaps : MonoBehaviour
                     SceneManager.LoadScene(sceneBuildIndex: 5);
                 }
             }
+
 
             if (hit.transform.tag == "GodWeapon1")
             {

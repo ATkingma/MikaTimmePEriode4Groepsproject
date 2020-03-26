@@ -6,6 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu_Scene.unity
+    guid: 53e0db7c579d54f4da5d360b96be0985
+  - enabled: 1
+    path: Assets/Scenes/overworld.unity
+    guid: c13d2cde420c54d43980bb2bed470b28
+  - enabled: 1
+    path: Assets/Scenes/MainCasle.unity
+    guid: eb5e430e236974d4e8d50f5bcd6ad1a4
+  - enabled: 1
+    path: Assets/Scenes/SecondPartCasle.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/OutTheCasle.unity
+    guid: 8dce4e6cf32c8a743bb7cfa6e425b064
+  - enabled: 1
     path: Assets/Scenes/Dungion.unity
     guid: 9d457866e86cf1e4ca807bcbbb467c66
+  - enabled: 1
+    path: Assets/Scenes/U Won.unity
+    guid: c67f81788362e974a9b103d724700537
+  - enabled: 1
+    path: Assets/Scenes/Death.unity
+    guid: 62eec169ccb31ce4db2ba118e0a26f76
   m_configObjects: {}

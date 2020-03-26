@@ -43291,7 +43291,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 04ab4469e56d83d4c982ad35f5cfb168,
         type: 3}
       propertyPath: m_TagString
-      value: DoorLevel3
+      value: DoorLevel4
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 04ab4469e56d83d4c982ad35f5cfb168,
         type: 3}
