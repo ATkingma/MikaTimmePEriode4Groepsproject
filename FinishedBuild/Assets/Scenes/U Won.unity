@@ -899,7 +899,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: You won But There is Not anny Think here Sorry :(
+  m_Text: You won But There is Nothing here Sorry :(
 --- !u!222 &813521491
 CanvasRenderer:
   m_ObjectHideFlags: 0
