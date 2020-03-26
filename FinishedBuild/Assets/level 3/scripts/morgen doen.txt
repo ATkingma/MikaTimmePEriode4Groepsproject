@@ -1,0 +1,15 @@
+﻿  //    ///-21.03 1.9 76.01
+    //    //player
+
+    //    //-20.797 2.3449 77.349
+    //    //rocket
+    //    //--------------------------------
+    //    //- 0.233 + 0.4449 + 1.339‬	
+
+
+	dit is positie shit voor rocket launcher rocket
+
+
+	morgen doen
+	animaties
+	en rocketlauncher dan is alles zo goed als fucking klaar

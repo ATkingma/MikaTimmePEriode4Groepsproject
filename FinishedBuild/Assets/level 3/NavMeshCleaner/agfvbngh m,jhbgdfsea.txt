@@ -1,0 +1,36 @@
+alle pilaren zelf plaatsen en dan de material dr op gooien en dan nog een tag
+
+en gameobjectS met tag ding vraahg anders jorn
+
+
+de0https://www.youtube.com/watch?v=oZX5UAru3CYcall
+  decal
+   #pragma strict
+ using UnityEngine; 
+ using System.Collections; 
+ using UnityEngine.UI; 
+ 
+ public class MovementScript : MonoBehaviour {
+ 
+  public Slider StaminaBarSlider;  //reference for slider
+  private bool CanRun = true; //flag to see if you can run
+  
+  void Start(){
+       CanRun = true; //disable GameOver text on start
+  }
+  
+  //Check if player enters/stays on the fire
+  void Update(){
+ 
+      if(Input.GetButton("LeftShift") && StaminaBarSlider.value>0){
+          StaminaBarSlider.value -=.010f;  //reduce health
+      }
+      else{
+          CanRun = false
+      }
+      if(StaminaBarSlider.value == 0){
+ 
+      }
+ 
+  }
+ }

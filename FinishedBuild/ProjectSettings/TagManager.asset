@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - pilar
+  - objects
+  - rage 1.1
+  - rage 1.2
+  - rage 1.3
+  - rage 1.4
+  - rage 1.5
+  - rage 1.6
+  - rage 2.1
+  - rage 2.2
+  - rage 2.3
+  - rage 2.4
+  - Boss
+  - RocketLauncher
+  - Pistol
+  - Famas
+  - Heavy
+  - Light
+  - DoorLevel3
+  - Score
+  - OverWorldDoor
+  - DoorLevel1
+  - DoorLevel2
+  - river
+  - DoorLevel4
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

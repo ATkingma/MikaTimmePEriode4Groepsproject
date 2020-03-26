@@ -1,0 +1,71 @@
+codes voor gescheven
+
+text=false
+
+// deur spawn
+if (boss hp <= 0)
+{
+SpawnDoor();
+}
+
+public void SpawnDoor();
+{
+spawn hier de deur
+}
+
+//deur interact
+if(cast met tag "deur"=true) 
+{
+text"press e to intreract = true
+if imput "e"
+{
+switch scene
+}
+}
+
+
+
+if (gameobject with tag "player" is in rades)
+{
+DoAtack();
+}
+
+DoAtack(){
+check of player voor hem staat
+zo ja sla
+ do damage(15)
+
+
+
+}
+
+een max op enemies heavys en lights zetten
+35 heavys 20 lights of 50 en 25
+
+sprint fixen
+hp bar enemie bos fixen
+en aninimaties dr op doen
+geluid fixen
+
+
+bij wapen switch nog afbeeldingen en ammo bij doen
+
+
+handgun heeft 10 famas 30 en rocket launcher 1
+
+handgun  1.5 reload tijd
+famas 3.5 reload tijd
+rocket launcher heeft 5.5 reload tijd
+
+een script dat op de cam staat en dan nieuwe gun in 
+4e
+5e 
+of 6e
+slot gooit 
+
+
+en dan meer damae doet
+
+als die recast
+laat zien e choose this weapon
+laat zien i info about this weapon
