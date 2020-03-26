@@ -252,25 +252,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.0000001, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!95 &2920543628989006581
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6604027351141590612}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7cfa8044eaca5934fb5971664a7e51dd, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2920543628530416056
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,6 +390,25 @@ MonoBehaviour:
   magHandGun: 0
   magFamas: 0
   weaponswitch: {fileID: 2920543628530416037}
+--- !u!95 &2920543628989006581
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6604027351141590612}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7cfa8044eaca5934fb5971664a7e51dd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &2920543627862966109
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -526,6 +526,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: arm
       objectReference: {fileID: 0}
+    - target: {fileID: -113181020801827196, guid: 0f78a376423a3f44c8d135c9d8753eb1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 05ece00665ad4f342b9b4c926258ee2b, type: 2}
     - target: {fileID: 1276603737757889232, guid: 0f78a376423a3f44c8d135c9d8753eb1,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -544,7 +549,7 @@ PrefabInstance:
     - target: {fileID: 2502203975881118265, guid: 0f78a376423a3f44c8d135c9d8753eb1,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2502203975881118265, guid: 0f78a376423a3f44c8d135c9d8753eb1,
         type: 3}

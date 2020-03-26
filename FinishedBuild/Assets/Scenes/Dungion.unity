@@ -47679,6 +47679,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1234547876232286341, guid: 13c98352ed73f3f429064ef3f4615c12,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3717830904751031364, guid: 13c98352ed73f3f429064ef3f4615c12,
         type: 3}
       propertyPath: godWeapon11
@@ -47804,6 +47809,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5617543397380553784, guid: 13c98352ed73f3f429064ef3f4615c12,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 05ece00665ad4f342b9b4c926258ee2b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13c98352ed73f3f429064ef3f4615c12, type: 3}
 --- !u!114 &3958059772669385823
