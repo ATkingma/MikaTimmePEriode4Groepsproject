@@ -53,7 +53,7 @@ public class Mouselook : MonoBehaviour
     }
     void Update()
     {
-        boss = GameObject.FindGameObjectWithTag("Boss");
+       
         DoCast();
         if (GetComponent<WeaponSwitch>().currentWeaponIndex == 0)
         {
@@ -110,7 +110,7 @@ public class Mouselook : MonoBehaviour
         }
         if (bosalive == false)
         {
-            door.SetActive(true);
+            StartCoroutine(Door());
         }
 
         if (Input.GetKey("r"))
@@ -121,7 +121,7 @@ public class Mouselook : MonoBehaviour
         float mouseY = Input.GetAxis("Mouse Y") * Mousesence * Time.deltaTime;
 
         xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -5, 15);
+        xRotation = Mathf.Clamp(xRotation, -10, 15);
 
         transform.localRotation = Quaternion.Euler(xRotation, 0, 0f);
         Vector3 rot = new Vector3(0, mouseX, 0);
@@ -142,6 +142,11 @@ public class Mouselook : MonoBehaviour
             if (rb != null)
                 rb.AddExplosionForce(power, explosionPos, radius, 3.0f);
         }
+    }
+    IEnumerator Door()
+    {
+        yield return new WaitForSeconds(1f);
+        door.SetActive(true);
     }
     public IEnumerator Reload()
     {
