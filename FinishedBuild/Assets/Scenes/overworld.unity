@@ -1351,13 +1351,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'U fell a sleep in ur favourit bar,
+  m_Text: 'you fell asleep in your favorite bar,
 
     You see a chair on the ground
-    and u feel somethink is up because every think is not leaved clean behind. You
-    go outside and only to see your kingdom is under atack and they have summond
-    a deadly reaper that has demon type minions now its up to you to safe the kingdom
-    are able to do that? lets see
+    and you feel something is up because the whole bar is a mess. You go outside
+    only to see your kingdom is under atack by a deadly reaper that has summoned
+    demons now its up to you to safe the kingdom are you able to do that? lets see.
 
 '
 --- !u!222 &956971311
@@ -2066,8 +2065,8 @@ MonoBehaviour:
   m_Text: 'if you see a door press e on it follow the path
 
     that will lead to
-    a full brown door same for the next door and just follow the door to go and defeat
-    the reaper outside the kingdom walls'
+    a fully brown door and just follow the path to go and defeat the reaper outside
+    the kingdom walls'
 --- !u!222 &1256051935
 CanvasRenderer:
   m_ObjectHideFlags: 0

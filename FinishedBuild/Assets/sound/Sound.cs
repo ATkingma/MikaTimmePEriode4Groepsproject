@@ -21,7 +21,7 @@ public class Sound : MonoBehaviour
             famas.Play();
 
         }
-        if (Input.GetButtonDown("fire1"))
+        if (Input.GetButtonDown("Fire1"))
         {
             handGun.Play();
 
