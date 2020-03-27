@@ -8,7 +8,7 @@ public class InGameMenu : MonoBehaviour
 {
     private GameObject[] heavys;
     private GameObject[] lights;
-    private GameObject boss;
+    public GameObject boss;
 
     public GameObject InGameUi;
     public GameObject MenuUi;
@@ -47,7 +47,7 @@ public class InGameMenu : MonoBehaviour
         }
         heavys = GameObject.FindGameObjectsWithTag("Heavy");
        lights = GameObject.FindGameObjectsWithTag("Light");
-        boss = GameObject.FindGameObjectWithTag("Boss");
+     
 
 
         if (menubool == true)
