@@ -50,10 +50,10 @@ public class Mouselook : MonoBehaviour
         magHandGun = 10;
         magFamas = 30;
 
-        boss = GameObject.FindGameObjectWithTag("Boss");
     }
     void Update()
     {
+        boss = GameObject.FindGameObjectWithTag("Boss");
         DoCast();
         if (GetComponent<WeaponSwitch>().currentWeaponIndex == 0)
         {

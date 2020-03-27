@@ -120,7 +120,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 3b4a84d91ccf3a94ea91a6be83566496, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: afe4b48d44db8124ab1d1fc771b6a01c, type: 2}
 --- !u!1 &15124720
 GameObject:
   m_ObjectHideFlags: 0
@@ -29154,6 +29154,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.9680862, y: 1.600884, z: 10.169717}
   m_Center: {x: -0.06999636, y: 0.0014427005, z: 1.7993197}
+--- !u!208 &1295691974
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295691971}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 2.4840002, y: 0.8, z: 5.085}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.07, y: 0.001, z: 1.7990001}
+  m_TimeToStationary: 0.5
 --- !u!1 &1298093213 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: d79f78f684d58c44a8e851bb40d6561d,
