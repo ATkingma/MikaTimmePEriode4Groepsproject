@@ -275,10 +275,10 @@ public class MousLookNormalMaps : MonoBehaviour
 
             if (hit.transform.tag == "DoorLevel1")
             {
-                print("kaul1o");
+          
                 if (Input.GetButton("e"))
                 {
-                    print("kaulo");
+
                     SceneManager.LoadScene(sceneBuildIndex: 3);
                 }
             }

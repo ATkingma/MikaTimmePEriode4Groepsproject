@@ -18,6 +18,7 @@ public class Movement : MonoBehaviour
     }
     private void Update()
     {
+
        staminaSlider.value = staminaValue;
         // movement player x en z axis
         movementSpeed.x = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
@@ -39,7 +40,18 @@ public class Movement : MonoBehaviour
                 speed = norSpeed;
             }
         }
+        if(staminaValue <= 0)
+        {
+            speed = norSpeed;
+        }
+        if (staminaValue <= -1)
+        {
+            staminaValue = 0;
+        }
+        if (staminaValue >= 101)
+        {
+            staminaValue = 100;
+        }
 
-      
     }
 }
