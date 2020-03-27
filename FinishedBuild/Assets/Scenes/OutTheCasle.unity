@@ -1467,8 +1467,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319982895}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 377.8, y: 1.5, z: 266.7}
-  m_LocalScale: {x: 4.031238, y: 1, z: 12.274}
+  m_LocalPosition: {x: 377.8, y: 1.5, z: 262}
+  m_LocalScale: {x: 13.715078, y: 1, z: 7.494713}
   m_Children: []
   m_Father: {fileID: 1281266142}
   m_RootOrder: 0
@@ -3140,6 +3140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   famas: {fileID: 1041652590}
   reload: {fileID: 966913625}
+  handGun: {fileID: 0}
 --- !u!4 &822545695
 Transform:
   m_ObjectHideFlags: 0

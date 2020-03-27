@@ -201,72 +201,74 @@ public class Mouselook : MonoBehaviour
                 }
               
                         }
-            MagazijnMin();
-            if (Physics.Raycast(transform.position, transform.forward, out hit, 100))
-            {
-                if (hit.transform.tag == "Boss")
+           
+
+                MagazijnMin();
+                if (Physics.Raycast(transform.position, transform.forward, out hit, 100))
                 {
-                    Debug.DrawRay(transform.position, transform.forward * 1.5f, Color.red, 100);
-                    if (GetComponent<WeaponSwitch>().currentWeaponIndex == 0)
+                    if (hit.transform.tag == "Boss")
                     {
-                        if (magHandGun >= 1)
+                        Debug.DrawRay(transform.position, transform.forward * 1.5f, Color.red, 100);
+                        if (GetComponent<WeaponSwitch>().currentWeaponIndex == 0)
                         {
-                           
-                            hit.transform.GetComponent<Health>().DoDamage(5);
-                            print("boshit1");
+                            if (magHandGun >= 1)
+                            {
+
+                                hit.transform.GetComponent<Health>().DoDamage(5);
+                                print("boshit1");
+                            }
+                            else
+                            {
+                                hit.transform.GetComponent<Health>().DoDamage(0);
+                            }
+
                         }
-                        else
+                        else if (GetComponent<WeaponSwitch>().currentWeaponIndex == 1)
                         {
-                            hit.transform.GetComponent<Health>().DoDamage(0);
+                            if (magFamas >= 1)
+                            {
+                                hit.transform.GetComponent<Health>().DoDamage(10);
+                                print("boshit2");
+                            }
+                            else
+                            {
+                                hit.transform.GetComponent<Health>().DoDamage(0);
+                            }
+                        }
+                    }
+
+
+                    if (hit.transform.tag == "Heavy")
+                    {
+                        Debug.DrawRay(transform.position, transform.forward * 1.5f, Color.green, 100);
+                        if (GetComponent<WeaponSwitch>().currentWeaponIndex == 0)
+                        {
+                            if (magHandGun >= 1)
+                            {
+
+                                hit.transform.GetComponent<Health>().DoDamage(5);
+                                print("heavyhit1");
+                            }
+                            else
+                            {
+                                hit.transform.GetComponent<Health>().DoDamage(0);
+                            }
+                        }
+                        else if (GetComponent<WeaponSwitch>().currentWeaponIndex == 1)
+                        {
+                            if (magFamas >= 1)
+                            {
+                                hit.transform.GetComponent<Health>().DoDamage(10);
+                                print("heavyhit2");
+                            }
+                            else
+                            {
+                                hit.transform.GetComponent<Health>().DoDamage(0);
+                            }
                         }
 
-                    }
-                    else if (GetComponent<WeaponSwitch>().currentWeaponIndex == 1)
-                    {
-                        if (magFamas >= 1)
-                        {
-                            hit.transform.GetComponent<Health>().DoDamage(10);
-                            print("boshit2");
-                        }
-                        else
-                        {
-                            hit.transform.GetComponent<Health>().DoDamage(0);
-                        }
                     }
                 }
-            
-
-            if (hit.transform.tag == "Heavy")
-            {
-                Debug.DrawRay(transform.position, transform.forward * 1.5f, Color.green, 100);
-                if (GetComponent<WeaponSwitch>().currentWeaponIndex == 0)
-                {
-                    if (magHandGun >= 1)
-                    {
-                           
-                            hit.transform.GetComponent<Health>().DoDamage(5);
-                        print("heavyhit1");
-                    }
-                    else
-                    {
-                        hit.transform.GetComponent<Health>().DoDamage(0);
-                    }
-                }
-                else if (GetComponent<WeaponSwitch>().currentWeaponIndex == 1)
-                {
-                    if (magFamas >= 1)
-                    {
-                        hit.transform.GetComponent<Health>().DoDamage(10);
-                        print("heavyhit2");
-                    }
-                    else
-                    {
-                        hit.transform.GetComponent<Health>().DoDamage(0);
-                    }
-                }
-
-            }
-
 
                 if (hit.transform.tag == "Light")
                 {
@@ -306,7 +308,7 @@ public class Mouselook : MonoBehaviour
         }
          
 
-    }
+    
 
 
 
