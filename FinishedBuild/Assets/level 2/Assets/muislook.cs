@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MuisLook : MonoBehaviour
 {
-    public float Mousesence = 1000f;
+    public float Mousesence = 500f;
     float xRotation = 0f;
     public Transform Player;
    
