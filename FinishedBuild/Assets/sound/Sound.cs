@@ -6,6 +6,7 @@ public class Sound : MonoBehaviour
 {
     public AudioSource famas;
     public AudioSource reload;
+    public AudioSource handGun;
 
     public void Update()
     {
@@ -17,9 +18,15 @@ public class Sound : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
-
             famas.Play();
+
+        }
+        if (Input.GetButtonDown("fire1"))
+        {
+            handGun.Play();
+
         }
     }
+    
 
 }

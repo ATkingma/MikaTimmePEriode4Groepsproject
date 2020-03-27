@@ -129,7 +129,7 @@ public class EnemieDoDamageLight : MonoBehaviour
     }
     IEnumerator Death()
     {
-     
+        
         anim.Play("LightDeath");
         yield return new WaitForSeconds(3);
         Score.GetComponent<Score>().kills++;
